@@ -4,9 +4,29 @@
   переключая тему
 */
 
+:root.theme_light {
+  /* Дублируем переменные для светлой темы */
+  --background: #FFF1F7;
+  --accent-color: #ff8dcb;
+  --title-color: #FFC2E6;
+  --main-text-color: #353430;
+  --header-text-color: #353430;
+  --background-text: #353430;
+  --accent-details-color: #353430;
+  --text-color_transparent: #32312D66;
+  --background-image: url(../images/cover-image-light.png);
+}
+
+/* Остальные стили */ 
+
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  background-image: var(--background-image); 
+}
+
+.page.theme_light .header__title {
+  color: var(--title-color);
 }

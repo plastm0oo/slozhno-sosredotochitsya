@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Переменные светлой темы */
+  --background: #FFF1F7;
+  --accent-color: #ff8dcb;
+  --title-color: #FFC2E6;
+  --main-text-color: #353430;
+  --header-text-color: #353430;
+  --background-text: #353430;
+  --accent-details-color: #353430;
+  --text-color_transparent: #32312D66;
+  --background-image: url(../images/cover-image-light.png);
+  --gap: 20px;
+  --text-size: 18px;
+  --text-lh: 23.4px;
+}
