@@ -4,8 +4,7 @@
   переключая тему
 */
 
-:root .theme_dark {
-  /* Переменные темной темы */   
+:root .theme_dark {   /* Переменные темной темы */ 
   --background: #000028;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
@@ -20,8 +19,7 @@
 /* Остальные стили */
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    /* Дублируем переменные темной темы */  
+  :root { /* Дублируем переменные темной темы */
     --background: #000028;
     --accent-color: #FF0070;
     --title-color: #DB00FF;
