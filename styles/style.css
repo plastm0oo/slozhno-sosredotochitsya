@@ -132,12 +132,6 @@
   color: var(--background-text);
 }
 
-/*==========MAIN==========*/
-
-.section {
-  margin-block-end: 80px;
-}
-
 .title-decor {
   font-size: var(--text-size);
   line-height: var(--text-lh);
@@ -145,6 +139,12 @@
   text-align: left;
   background-color: var(--accent-color);
   color: var(--background-text);
+}
+
+/*==========MAIN==========*/
+
+.section {
+  margin-block-end: 80px;
 }
 
 .section-list {
