@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme_light {
+:root .theme_light {
   /* Дублируем переменные для светлой темы */
   --background: #FFF1F7;
   --accent-color: #ff8dcb;
@@ -17,16 +17,6 @@
   --background-image: url(../images/cover-image-light.png);
 }
 
-/* Остальные стили */ 
-
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  background-image: var(--background-image); 
-}
-
-.page.theme_light .header__title {
-  color: var(--title-color);
+.page.theme_light .REC {
+  display: none;
 }

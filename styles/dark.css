@@ -32,37 +32,23 @@
     --text-color_transparent: #FF007066;
     --background-image: url(../images/cover-image-dark.png);
   }
+  
+  .page.theme_auto .REC::before {
+    display: block;
+  }
+
+  .page.theme_auto .REC::after {
+    display: block;
+  }
 }
 
 /* Остальные стили */
 
-.page.theme_dark {
+.page.theme_dark .REC,
+.page.theme_auto .REC {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  background-image: var(--background-image);
-}
-
-  .page.theme_dark .REC::before {
-    content: "REC";
-    font-family: 'IBM Plex mono', sans-serif;
-    line-height: 25px;
-    color: var(--accent-details-color);
-    margin-inline-end: 10px;
-  } 
-
-  .page.theme_dark .REC::after {
-    content: "";
-    position: absolute;
-    margin-block-start: 8px;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background-color: var(--accent-details-color);
-    box-shadow: 0px 0px 4px 2px var(--accent-details-color);
-  } 
-
-.page.theme_dark .header__title {
-  color: var(--title-color);
+  display: block;
 }
