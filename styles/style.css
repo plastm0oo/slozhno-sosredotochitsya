@@ -55,8 +55,6 @@
 .REC::before {
   display: none;
   content: "REC";
-  font-family: 'IBM Plex mono', sans-serif;
-  font-size: 18px;
   line-height: 25px;
   color: var(--accent-details-color);
   margin-inline-end: 10px;
@@ -266,7 +264,7 @@
 }
 
 .section__image {
-  width: 100%; 
+  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -289,27 +287,6 @@
   line-height: 130px;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-}
-
-.page.theme_dark .REC::before {
-  display: block;
-  content: "REC";
-  font-size: 18px;
-  line-height: 25px;
-  color: var(--accent-details-color);
-  margin-inline-end: 10px;
-}
-
-.page.theme_dark .REC::after {
-  display: block;
-  content: "";
-  position: absolute;
-  inset: 8px 0px 0px 42px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background-color: var(--accent-details-color);
-  box-shadow: 0px 0px 4px 2px var(--accent-details-color);
 }
 
 /*=DESKTOP MEDIA=*/
